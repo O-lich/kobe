@@ -1,16 +1,88 @@
-# kobe
+# 🕒 KOBE Timer
 
-A new Flutter project.
+**KOBE Timer** is a beautiful and customizable interval timer for workouts, focus sessions, and mindfulness practices.  
+Built with ❤️ using Flutter, it's designed to be minimal, responsive, and delightful to use.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- ⏱️ **HIIT, Yoga, Focus, and Circuit modes**
+- 🧘 Customizable intervals for warm-up, work, rest, cooldown, and number of rounds
+- 🧭 Clean navigation with GoRouter
+- 🎨 Modern UI with gradient buttons and SVG illustrations
+- 🧠 Offline support using `shared_preferences` (local only for now)
+- 📦 Modular architecture with clear separation by feature
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+- **Flutter** 3.x
+- **GoRouter** for navigation
+- **Shared Preferences** for local persistence
+- **Google Fonts** & **flutter_svg** for UI polish
+- **MVC-ish** feature-based folder structure
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/your-user/kobe.git
+cd kobe
+```
+
+### 2. Install dependencies
+
+```bash
+flutter pub get
+```
+
+### 3. Run the app
+
+```bash
+flutter run
+```
+
+---
+
+## 🧱 Folder Structure
+
+```
+lib/
+├── core/             # Shared configs, colors, strings, assets
+├── features/
+│   ├── home/         # Home screen
+│   ├── hiit/         # HIIT setup, models
+│   └── ...           # Future: yoga, focus, circuit
+├── router/           # App-wide routing
+├── widgets/          # Shared UI components
+└── main.dart         # Entry point
+```
+
+---
+
+## 📸 UI Preview
+
+![simulator_screenshot_7214C384-825A-4585-BCB4-240A56F3988C](https://github.com/user-attachments/assets/e8cdfa2e-04df-4cb3-81ae-2b1ea646634d)
+
+![simulator_screenshot_84D393F4-6DD8-4BE0-8CFD-A7D2D102BB9A](https://github.com/user-attachments/assets/0a9d2f02-e63e-4519-b45f-6b5456c9b43f)
+
+
+---
+
+## ✅ Todo
+
+- [ ] Add timer execution screen with audio & vibration
+- [ ] Add favorites & settings functionality
+- [ ] Support for Apple Watch sync (future)
+- [ ] Localizations (EN/RU)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
