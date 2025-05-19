@@ -67,9 +67,9 @@ lib/
 
 ## 📸 UI Preview
 
-![simulator_screenshot_7214C384-825A-4585-BCB4-240A56F3988C](https://github.com/user-attachments/assets/e8cdfa2e-04df-4cb3-81ae-2b1ea646634d)
+<img src="https://github.com/user-attachments/assets/e8cdfa2e-04df-4cb3-81ae-2b1ea646634d" height="400"/>
 
-![simulator_screenshot_84D393F4-6DD8-4BE0-8CFD-A7D2D102BB9A](https://github.com/user-attachments/assets/0a9d2f02-e63e-4519-b45f-6b5456c9b43f)
+<img src="https://github.com/user-attachments/assets/0a9d2f02-e63e-4519-b45f-6b5456c9b43f" height="400"/>
 
 
 ---
