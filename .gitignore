@@ -8,7 +8,7 @@
 .buildlog/
 .history
 .svn/
-migrate_working_dir/
+# migrate_working_dir/
 
 # IntelliJ related
 *.iml
@@ -41,3 +41,17 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# VS Code
+.vscode/
+
+# Xcode
+*.xcuserstate
+*.xcuserdata
+*.swp
+.DS_Store
+
+# Flutter/Mac
+build/
+.macos/
+.ios/Flutter/Flutter.podspec
